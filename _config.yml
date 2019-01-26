@@ -1,0 +1,37 @@
+name: pure4s
+title: pure4s
+description: Purely functional libraries for Scala
+twitter: pure4scala
+email: llfrometa@gmail.com
+gitter: "https://gitter.im/orgs/pure4s/rooms"
+google_groups: "https://groups.google.com/group/pure4s"
+baseurl: http://pure4s.org
+googlemaps_apikey: "AIzaSyAgMQPpkd_Qq-NYcCggh28PaS82oG-9YoA"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+highlighter: rouge
+exclude: ["README.md", "vendor", "src", "project/", "build.sbt", "Rakefile", "sbt", "gh-pages"]
+include: ["_redirects"]
+permalink: /blog/:year/:month/:day/:title.html
+paginate: 10
+paginate_path: "/blog/:num/"
+sass:
+  sass_dir: _scss
+  style: compressed
+future: true
+
+plugins: [jekyll-paginate]
+
+collections:
+  events:
+    output: true
+    permalink: /event/:year-:month-:title/
+    layout: event
+  projects:
+    output: false
+
+host: 0.0.0.0

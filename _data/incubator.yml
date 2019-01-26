@@ -1,0 +1,6 @@
+- title: "logger4s"
+  description: "RDF, SPARQL and Linked Data technologies"
+  github: "https://github.com/pure4s/logger4s"
+- title: "validator4s"
+  description: "Scalatest bindings for Cats."
+  github: "https://github.com/pure4s/logger4s"
